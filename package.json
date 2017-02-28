@@ -1,0 +1,23 @@
+{
+  "name": "connecting-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "find-famous.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Joseph/connecting-from-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.12.7",
+    "pg": "^6.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-Joseph/connecting-from-js/issues"
+  },
+  "homepage": "https://github.com/Alex-Joseph/connecting-from-js#readme"
+}

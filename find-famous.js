@@ -11,8 +11,6 @@ const client = new pg.Client({
 
 client.connect((err) => {
   const name = process.argv[2];
-
-
   if (err) {
     return console.error("Connection Error", err);
   }
@@ -20,6 +18,7 @@ client.connect((err) => {
     if (err) {
       return console.error("error running query", err);
     }
+
     processData(result, name);
 
     client.end();
